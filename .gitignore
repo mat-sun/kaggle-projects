@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kaggle project artifacts
+competitions/*/data/**
+!competitions/*/data/.gitkeep
+competitions/*/models/**
+!competitions/*/models/.gitkeep
+competitions/*/outputs/**
+!competitions/*/outputs/.gitkeep
+competitions/*/submissions/*.csv
+competitions/*/submissions/*.zip
+competitions/*/submissions/*.parquet
+competitions/*/submissions/*.npy
